@@ -1,17 +1,17 @@
-﻿import { Component, OnInit } from '@angular/core';
+﻿import { Component, OnInit } from "@angular/core";
 
-import './home.component.scss';
+import "./home.component.scss";
 
 @Component({
-    selector: 'home-component',
-    templateUrl: 'home.component.html'
+    selector: "home-component",
+    templateUrl: "home.component.html"
 })
 
 export class HomeComponent implements OnInit {
     public message: string;
 
     constructor() {
-        this.message = 'Hellow';
+        this.message = "Hellow";
     }
 
     ngOnInit() {

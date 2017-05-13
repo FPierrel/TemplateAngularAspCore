@@ -1,8 +1,8 @@
 ﻿// Entry point for JiT compilation.
 declare var System: any;
 
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { AppModule } from './app/app.module';
+import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
+import { AppModule } from "./app/app.module";
 
 // Enables Hot Module Replacement.
 declare var module: any;
